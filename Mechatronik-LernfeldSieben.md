@@ -27,7 +27,9 @@ classroom: enable
 
 ## Steuer- und Regelungstechnik
 
-Herzlich willkommen im Abschnitt über Regelungstechnik! 🎓 In der Ausbildung zum Mechatroniker ist dieses Thema unerlässlich, da es euch grundlegende Prinzipien zur Steuerung und Regelung komplexer Systeme vermittelt.
+Herzlich willkommen im Abschnitt zu Regelungstechnik! 🎓
+
+In der Ausbildung zum Mechatroniker ist dieses Thema unerlässlich, da es euch grundlegende Prinzipien zur Steuerung und Regelung komplexer Systeme vermittelt.
 
 Ihr lernt, wie Systeme automatisch reguliert werden, um Istwerte und Sollwerte richtig abzustimmen. 📏 Dabei spielt die Erfassung von Daten durch Sensoren und die Verarbeitung dieser Informationen zur Anpassung von Steuerungen eine zentrale Rolle. 🎛️
 
@@ -113,7 +115,7 @@ Betrachten wir nochmal das Beispiel vom Abschnitt **Steuern vs. Regeln**. Nennen
 - Navigation per Maps
 - Backofen in der Küche
 
-### Übergangsfunktion eines Regelkreises ###
+### Übergangsfunktion eines Regelkreises
 
 ![Übergangsfunktion](bilder/kennwerte-uebergangsfunktion.png "Bildrechte: https://upload.wikimedia.org/wikipedia/commons/b/b4/Kennwerte_%C3%9Cbergangsfunktion.png")
 
