@@ -123,5 +123,13 @@ Betrachten wir nochmal das Beispiel vom Abschnitt **Steuern vs. Regeln**. Nennen
 
 **Imoulsantwort**
 
+### Elemente eines Regelkreises
+
+#### Die Regelstrecke
+
+![Messie Wohnzimmer](bilder/messie.png "Bildrechte:https://www.kreisbote.de/lokales/schongau/muell-soweit-auge-reicht-7379971.html")
+
+**Click for more garbage** --> [Messie richtet Chaos in Peitinger Wohnung an](https://www.kreisbote.de/lokales/schongau/messie-verwuestet-peitinger-wohnung-voellig-mehrere-faelle-jaehrlich-7379977.html)
+
 
 
