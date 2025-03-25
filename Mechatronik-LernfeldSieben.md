@@ -105,6 +105,15 @@ Ergänzen Sie die Bedeutung der verschiedenen Kenngrößen eines Regelkreises un
 Lösen Sie die LearningApp [Blockschaltbild Regelkreis](https://learningapps.org/watch?v=ptu8z0cwa19).
 [qr-code](https://learningapps.org/watch?v=ptu8z0cwa19)
 
+### Regelungsarten
+
+
+**Festwertrgelung**
+
+**Folgeregelung**
+
+**Zeitplanregelung**
+
 ### Verhalten einer *guten* Regelung
 
 **📝 AUFGABE**
@@ -119,9 +128,11 @@ Betrachten wir nochmal das Beispiel vom Abschnitt **Steuern vs. Regeln**. Nennen
 
 ![Übergangsfunktion](bilder/kennwerte-uebergangsfunktion.png "Bildrechte: https://upload.wikimedia.org/wikipedia/commons/b/b4/Kennwerte_%C3%9Cbergangsfunktion.png")
 
+
+
 **Sprungantwort**
 
-**Imoulsantwort**
+**Impulsantwort**
 
 ### Elemente eines Regelkreises
 
