@@ -35,13 +35,15 @@ Ihr lernt, wie Systeme automatisch reguliert werden, um Istwerte und Sollwerte r
 
 Ein wichtiger Aspekt ist das Verständnis von Regelkreisen und deren Komponenten. Ihr erfahrt, wie diese in verschiedenen Anwendungen, wie Industrieanlagen und Automatisierungssystemen, eingesetzt werden. 🔧 Zudem werdet ihr praktische Übungen durchführen, um euer theoretisches Wissen anzuwenden und zu vertiefen. 💻🔍
 
-Die Kenntnisse in der Regelungstechnik sind entscheidend für eure berufliche Entwicklung und für die Effizienz moderner technischer Systeme. 🌍 Seid bereit, spannende Themen zu erkunden und euer Wissen zu erweitern! Viel Spaß beim Lernen! 📚✨
+Die Kenntnisse in der Regelungstechnik sind entscheidend für eure berufliche Entwicklung und für die Effizienz moderner technischer Systeme. 🌍 Seid bereit, spannende Themen zu erkunden und euer Wissen zu erweitern!
+
+Viel Spaß beim Lernen! 📚✨
 
 ![GIVE ME CONTROL!](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW96dnl1b2g4b2RvZHF0anhuaTVoZmdkOTk3dG1sanpwajdhMnRxMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YO3icZKE2G8OoGHWC9/giphy.gif "viaGIPHY")
 
 ### Steuern vs. Regeln
 
-Für ein erstes Verständnis zum Thema Regelungstechnik ist es wichtig, den technischen Unterschied zwischen "steuern" und "regeln" zu verinnerlichen.
+Für ein erstes Verständnis zum Thema Regelungstechnik ist es wichtig, den technischen Unterschied zwischen "Steuern" und "Regeln" zu verinnerlichen.
 
 ![Steuern vs. Regeln](bilder/steuern-regeln.png)
 
@@ -59,25 +61,30 @@ Lesen Sie die beiden Definition nach DIN IEC 60050-351:
 
 *Kennzeichen für das Regeln ist der geschlossene Wirkungsablauf, bei dem die Regelgröße im Wirkungsweg des Regelkreises fortlaufend sich selbst beeinflusst."*
 
-**📝 AUFGABE**
+<!-- style="background-color: salmon;"-->
+> **📝 AUFGABE**
+>
+> Grenzen Sie die Begriffe "Steuerung" und "Regelung" mit Ihren eigenen Worten gegeneinander ab.
 
-Erläutern Sie anhand der folgenden Beispiele den Unterschied zwischen "Steuern" und "Regeln":
 
-- Geschwindigkeit eines Autos
-- Navigation per Maps
-- Backofen in der Küche
+<!-- style="background-color: salmon;"-->
+> **📝 AUFGABE**
+>
+> Erläutern Sie anhand der folgenden Beispiele den Unterschied zwischen "Steuern" und "Regeln":
+>
+> - Geschwindigkeit eines Autos
+> - Navigation per Maps
+> - Backofen in der Küche
 
-**📝 AUFGABE**
-
-Grenzen Sie die Begriffe "Steuerung" und "Regelung" mit Ihren eigenen Worten gegeneinander ab.
 
 ### Blockschaltbild
 
 Eine Regelung wird meist schematisch als **Blockschaltbild** anhand der Struktur eines **Regelkreises** dargestellt.
 
-**📝 AUFGABE**
-
-Übernehmen Sie das Blockschaltbild und ergänzen Sie die Begriffe für die einzelnen Elemente. Nutzen Sie die Informationen in Ihrem Tabellenbuch!
+<!-- style="background-color: salmon;"-->
+>**📝 AUFGABE**
+>
+>Übernehmen Sie das Blockschaltbild und ergänzen Sie die Begriffe für die einzelnen Elemente. Nutzen Sie die Informationen in Ihrem Tabellenbuch!
 
 ![Schema Regelkreis](bilder/schema-regelkreis.png)
 
@@ -89,7 +96,8 @@ Eine Regelung wird meist schematisch als **Blockschaltbild** anhand der Struktur
 +------------+   +---------+   +--------+
 ```
 
-Ergänzen Sie die Bedeutung der verschiedenen Kenngrößen eines Regelkreises und tragen Sie diese an der passenden Stelle im Blockschaltbild ein.
+<!-- style="background-color: salmon;"-->
+>Ergänzen Sie die Bedeutung der verschiedenen Kenngrößen eines Regelkreises und tragen Sie diese an der passenden Stelle im Blockschaltbild ein.
 
 | Kenngröße | Bedeutung        |
 |-----------|------------------|
@@ -115,17 +123,18 @@ Der Vergleicher vergleicht die zwei am Reglereingang anstehenden Signale. Das si
 
 3. **Zeitplanregelung**: Bei einer Zeitplanregelung wird der Sollwert w von einer Zeitschaltuhr oder von einem Programm geändert.
 
-**📝 AUFGABE**
-
-Ordnen Sie die Beispiele einer Regelungsart zu und begründen Sie Ihre Entscheidung.
-
-- Geschwindigkeitsregelung von PKWs
-- Temperaturregelung in Wohngebäuden
-- Positionsregelung des Maschinenschlittens einer Drehmaschine
-- Abstandsregelung eines Laserschneidwerkzeugs
-- Druckregelung in einem Kompressor
-
-Finden Sie je zwei weitere Praxisbeispiele pro Regelungsart.
+<!-- style="background-color: salmon;"-->
+>**📝 AUFGABE**
+>
+>Ordnen Sie die Beispiele einer Regelungsart zu und begründen Sie Ihre Entscheidung.
+>
+>- Geschwindigkeitsregelung von PKWs
+>- Temperaturregelung in Wohngebäuden
+>- Positionsregelung des Maschinenschlittens einer Drehmaschine
+>- Abstandsregelung eines Laserschneidwerkzeugs
+>- Druckregelung in einem Kompressor
+>
+>Finden Sie je zwei weitere Praxisbeispiele pro Regelungsart.
 
 
 ### Wichtige Begriffe und Elemente eines Regelkreises
@@ -154,28 +163,57 @@ Eine verzögerungsfreie Strecke (*Strecke 0. Ordnung* oder *$ PT_0 $-Strecke*) b
 
 Folgt die Regelgröße x einer Stellgrößenänderung y nur verzögert, so handelt es sich um eine Strecke mit Anlaufzeit. Befindet sich nur ein Energiespeicher in dieser Strecke, so spricht man von einer *Strecke 1. Ordnung* oder *$ PT_1 $-Strecke*. Strecken mit mehreren Energiespeichern werden als *Strecke n. Ordnung* oder *$ PT_n $-Strecke* zusammengefasst.
 
-**📝 AUFGABE**
-
-In der Regelungstechnik wird für eine bessere Übersichtlichkeit das Verhalten der Strecke bei einem Stellsprung (oder einer Störung) als Blockschaltbild angegeben.
-
-Zeichnen Sie für die genannten Strecken ($ PT_0 $, $ PT_0-T_t $, $ PT_1 $, $ PT_1-T_t $, $ PT_n $) das zugehörige Blockschaltbild. Für Infos zur *Totzeit $ T_t $* lesen Sie zunächst den nächsten Abschnitt.
-
-Geben Sie für jede Strecke zwei Beispiele an.
+<!-- style="background-color: salmon;"-->
+>**📝 AUFGABE**
+>
+>In der Regelungstechnik wird für eine bessere Übersichtlichkeit das Verhalten der Strecke bei einem Stellsprung (oder einer Störung) als Blockschaltbild angegeben.
+>
+>Zeichnen Sie für die genannten Strecken ($ PT_0 $, $ PT_0-T_t $, $ PT_1 $, $ PT_1-T_t $, $ PT_n $) das zugehörige Blockschaltbild. Für Infos zur *Totzeit $ T_t $* lesen Sie zunächst den nächsten Abschnitt.
+>
+>Geben Sie für jede Strecke zwei Beispiele an.
 
 #### Totzeit
 
 Unter der Totzeit $ T_t $ einer Regelstrecke versteht man die Zeit, die vergeht, bis sich eine Änderung der Stellgröße beginnt am Messort auszuwirken. Umso größer die Totzeit ist, desto schwieriger ist die Regelbarkeit einer Strecke.
 
-**📝 AUFGABE**
-
-Geben Sie Hinweise, die beim Entwurf eines Regelkreises beachtet werden müssen, damit die Totzeit möglichst klein ist.
+<!-- style="background-color: salmon;"-->
+>**📝 AUFGABE**
+>
+>Geben Sie Hinweise, die beim Entwurf eines Regelkreises beachtet werden müssen, damit die Totzeit möglichst klein ist.
 
 #### Übergangsfunktion eines Regelkreises
 
 ![Übergangsfunktion](bilder/kennwerte-uebergangsfunktion.png "Bildrechte: https://upload.wikimedia.org/wikipedia/commons/b/b4/Kennwerte_%C3%9Cbergangsfunktion.png")
 
+Zur Analyse des Verhaltens von (unbekannten) Regelstrecken haben sich verschiedene Verfahren etabliert. Das zu regelnde System wird mit unterschiedlichen Signalen beaufschlagt und durch die "Systemantwort" erhält man eine erste Aussage, über dessen Verhalten und somit Regelbarkeit.
+
+**Sprung-Antwort-Verfahren**
+
+**Anstiegs-Antwort-Verfahren**
+
+**Impuls-Antwort-Verfahren**
 
 
+### Einteilung von Regelgliedern
+
+**Stetige Regelung**
+
+- P, I, PI, PD, PID
+- Stellgröße kann innerhalb eines bestimmten Bereiches jeden Zwischenwert annehmen
+
+**Nichtstetige Regelung**
+
+- 2-Punkt-Regelung (An-Aus) , 3-Punkt-Regelung
+- Nur Einstellung in festen Stufen
+
+#### Zweipunkt-Regler
+
+Die Stellgröße y eines Zweipunkt-Reglers kann nur die beiden Zustände y = 1 (Regler EIN) oder y = 0  (Regler AUS) annehmen.
+
+<!-- style="background-color: salmon;"-->
+>**📝 AUFGABE**
+>
+>Finden Sie mithilfe Ihres Tabellenbuches Informationen zum Zweipunkt-Regler. Zeichnen Sie das Schaltsymbol des Reglers und beschreiben Sie mithilfe der Kennlinie des Zweipunkt-Reglers das Verhalten eines Backofen.
 
 
 ### Verhalten einer *guten* Regelung
@@ -188,3 +226,8 @@ Betrachten wir nochmal das Beispiel vom Abschnitt **Steuern vs. Regeln**. Nennen
 - Navigation per Maps
 - Backofen in der Küche
 
+Grundsätzlich kann man die Anforderungen an eine *gute* Regelung wie folgt zusammenfassen:
+
+- So **schnell** wie möglich!
+- So **genau** wie möglich!
+- So **schwingungsfrei** wie möglich – möglichst kein Überschwingen!
