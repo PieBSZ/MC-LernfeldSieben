@@ -196,15 +196,11 @@ Zur Analyse des Verhaltens von (unbekannten) Regelstrecken haben sich verschiede
 
 ### Einteilung von Regelgliedern
 
-**Stetige Regelung**
 
-- P, I, PI, PD, PID
-- Stellgröße kann innerhalb eines bestimmten Bereiches jeden Zwischenwert annehmen
-
-**Nichtstetige Regelung**
-
-- 2-Punkt-Regelung (An-Aus) , 3-Punkt-Regelung
-- Nur Einstellung in festen Stufen
+<!-- style="background-color: salmon;"-->
+>**📝 AUFGABE**
+>
+>Erstellen Sie mithilfe der Informationen in Ihrem Lehrbuch (11.3 Regeleinrichtungen und Regelglieder, S. 565) eine Übersicht zur Einteilung von Regelgliedern. Geben Sie jeweils Beispiele und Besonderheiten an.
 
 #### Zweipunkt-Regler
 
