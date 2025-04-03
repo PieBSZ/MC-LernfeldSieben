@@ -145,6 +145,8 @@ In einem Regelkreis wird die zu regelnde Anlage als *Regelstrecke* bezeichnet. S
 
 Bei **Regelstrecken mit Ausgleich** nimmt die Ausgangsgröße x der Strecke nach einer Veränderung der Eingangsgröße y innerhalb einer bestimmten Zeit wieder einen neuen *Beharrungszustand* ein. Diese Strecken werden als **P-Strecken** (Proportional-Strecken) bezeichnet.
 
+Bei **Regelstrecken ohne Ausgleich** nimmt nach einer Stellgrößenänderung die Strecke *keinen* neuen Beharrungszustand ein, sondern sie steigt oder fällt mit einer bestimmten Geschwindigkeit, bis ihre technische Grenzen erreicht sind. Dieses Verhalten der Strecke wird als integrierend ("aufsummierend") bezeichnet und somit die Strecke als **I-Strecke** (Integral-Strecke) benannt.
+
 ![Messie Wohnzimmer](bilder/messie.png "Bildrechte:https://www.kreisbote.de/lokales/schongau/muell-soweit-auge-reicht-7379971.html")
 
 **Click for more garbage** --> [Messie richtet Chaos in Peitinger Wohnung an](https://www.kreisbote.de/lokales/schongau/messie-verwuestet-peitinger-wohnung-voellig-mehrere-faelle-jaehrlich-7379977.html)
@@ -212,6 +214,34 @@ Die Stellgröße y eines Zweipunkt-Reglers kann nur die beiden Zustände y = 1 (
 >Finden Sie mithilfe Ihres Tabellenbuches Informationen zum Zweipunkt-Regler. Zeichnen Sie das Schaltsymbol des Reglers und beschreiben Sie mithilfe der Kennlinie des Zweipunkt-Reglers das Verhalten eines Backofen.
 
 
+#### PID-Regler
+
+Ein PID-Regler (Proportional-Integral-Differential-Regler) besteht aus drei Hauptkomponenten:
+
+**Proportionalanteil (P)**
+
+Dieser Teil reagiert auf die aktuelle Regelabweichung, das heißt, er berechnet den Unterschied zwischen dem Sollwert (gewünschter Wert) und dem Istwert (aktueller Wert). Der Proportionalanteil sorgt dafür, dass bei einer großen Regelabweichung eine starke Korrektur erfolgt.
+
+![P-Glied](bilder/p-glied.png)
+
+**Integralanteil (I)**
+
+Dieser Teil berücksichtigt die vergangene Regelabweichung. Er summiert die Regelabweichungen über die Zeit und hilft, Fehler zu korrigieren, die über einen längeren Zeitraum bestehen bleiben (z. B. systematische Fehler). Der Integralanteil hilft, den stationären Fehler auf null zu bringen.
+
+![I-Glied](bilder/i-glied.png)
+
+**Differentialanteil (D)**
+
+Dieser Teil reagiert auf die Änderungsgeschwindigkeit der Regelabweichung und nicht auf deren Höhe. Er prognostiziert zukünftige Fehler basierend auf der aktuellen Änderungsrate und sorgt dafür, dass das System schneller reagiert. Der Differentialanteil hilft, das Überschwingen und die Oszillation zu minimieren. Es kann nur in Kombination eingesetzt werden, z. B. PD- oder PID-Regler.
+
+![D-Glied](bilder/d-glied.png)
+
+Zusammenfassend lässt sich zum PID-Regler festhalten, dass dieser von den Standard-Reglern am anpassungsfähigsten ist. Er verhindert bei konstantem Sollwert eine bleibende Regelabweichung bei Führungs- und Störgrößensprung und kann zwei Verzögerungen (PT1-Glieder) der Regelstrecke kompensieren und damit die Regelstrecke vereinfachen.
+
+Die Sprungantwort eines *idealen* PID-Reglers:
+
+![PID-Regler](bilder/pid-glied.png)
+
 ### Verhalten einer *guten* Regelung
 
 **📝 AUFGABE**
@@ -227,3 +257,7 @@ Grundsätzlich kann man die Anforderungen an eine *gute* Regelung wie folgt zusa
 - So **schnell** wie möglich!
 - So **genau** wie möglich!
 - So **schwingungsfrei** wie möglich – möglichst kein Überschwingen!
+
+## Quellenverzeichnis
+https://de.wikipedia.org/wiki/Regler
+
